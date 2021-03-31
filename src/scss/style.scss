@@ -1,0 +1,185 @@
+@import "src/scss/variables/variables.scss";
+@import "src/scss/mixin/mixin.scss";
+
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-color: $bgColor;
+}
+
+.header{
+  background: $headerColor;
+  height: 64px;
+  align-items: center;
+
+  a {
+    text-decoration: none;
+  }
+
+  &Body{
+    font-size: 14px;
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &Logo{
+    float: left;
+    margin-left: 24px;
+
+    &Img{
+      float: left;
+
+    }
+
+    &Text{
+      @include fontAds(#FFFFFF, 20px);
+      margin-left: 40px;
+      margin-right: 34px;
+      margin-top: 6px;
+    }
+  }
+
+  &Ads{
+    float: left;
+    width: 842px;
+    padding: 6px;
+    margin-left: 10px;
+    margin-top: 3px;
+    background: rgba(0,0,0,0.23); /* Цвет фона */
+    border-radius: 4px;
+
+    &Link{
+      @include fontAds(#CDD1EA, 14px);
+      display: flex;
+
+      &Button{
+        float: left;
+        background: #26A69A;
+        border-radius: 3px;
+        color: #FFFFFF;
+        padding: 5px;
+        font-size: 10px;
+      }
+
+      &Text{
+        //width: 810px;
+        margin-left: 14px;
+        margin-top: 3px;
+      }
+    }
+  }
+
+  &Button{
+    a{
+      margin: 10px;
+    }
+  }
+}
+
+.side{
+  width: 270px;
+  height: 1017px;
+  background: white;
+  float: left;
+
+  a{
+    text-decoration: none;
+  }
+
+  &About{
+    margin-top: 24px;
+    &Link{
+      margin-left: 84px;
+    }
+
+    &Name{
+      margin-top: 16px;
+      margin-left: 79px;
+      @include fontMenu(#3A3B3F, 16px);
+    }
+
+    &Role{
+      margin-top: 6px;
+      margin-left: 98px;
+      @include fontMenu(#9EA0A5, 12px);
+    }
+  }
+
+  &Line{
+    color: #E4E7EB;
+    margin-left: 15px;
+    border: 1px solid #E4E7EB;
+    width: 238px;
+    margin-top: 23px;
+  }
+
+  ul{
+    list-style: none;
+  }
+
+  &Navigation{
+    padding: 20px;
+
+    &List{
+      margin-top: 36px;
+
+      &Link{
+        &Img{
+          float: left;
+          margin-left: 10px;
+          margin-right: 10px;
+        }
+
+        &Text{
+          height: 20px;
+          padding: 3px 0 0 0;
+          @include fontMenu(#66788A, 14px);
+          font-weight: 500;
+        }
+      }
+    }
+  }
+
+  &LineTwo{
+    color: #E4E7EB;
+    border: 1px solid #E4E7EB;
+    width: 238px;
+    margin-top: 23px;
+  }
+
+
+  &Support{
+
+    &List{
+      margin-top: 24px;
+
+      &Text{
+        padding: 5px;
+        margin-top: 24px;
+        @include fontMenu(rgba(0, 0, 0, 0.328974), 15px);
+      }
+
+      &Link{
+
+        &Img{
+          float: left;
+          margin-top: 21px;
+          margin-left: 10px;
+          margin-right: 10px;
+        }
+
+        &Text{
+          margin-top: 21px;
+          padding: 3px 0 0 0;
+          @include fontMenu(#66788A, 14px);
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}

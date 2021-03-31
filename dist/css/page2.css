@@ -1,0 +1,233 @@
+.main {
+  margin-left: 295px;
+  margin-right: 25px;
+}
+
+.mainHead {
+  padding-top: 16px;
+  position: relative;
+}
+
+.mainHeadImgPhoto {
+  width: 100%;
+}
+
+.mainHeadLogo {
+  margin-left: 24px;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 75%;
+}
+
+.mainHeadLogoText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 16px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.mainHeadLogoTextName {
+  font-size: 10px;
+  font-family: 'Robot' ,sans-serif;
+  color: #9EA0A5;
+  text-transform: uppercase;
+}
+
+.mainHeadLogoTextType {
+  font-size: 20px;
+  font-family: 'Robot' ,sans-serif;
+  color: #3A3B3F;
+  font-weight: 500;
+}
+
+.mainBar {
+  margin-top: 95px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.mainBarSearch {
+  width: 520px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 5px;
+  background: white;
+  -webkit-box-shadow: gray;
+          box-shadow: gray;
+}
+
+.mainBarSearchLink {
+  padding-right: 14px;
+  padding-top: 10px;
+  margin-left: 13px;
+}
+
+.mainBarSearchInput {
+  border-style: none;
+  padding: auto;
+  padding-right: 60%;
+}
+
+.mainBarSearchProduct {
+  color: white;
+  font-size: 14px;
+  padding: 10px 15px;
+  background: #47B881;
+  border-radius: 5px;
+  margin-right: 34px;
+  -webkit-box-shadow: gray;
+          box-shadow: gray;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: 'Robot' ,sans-serif;
+  color: white;
+  letter-spacing: 1.25px;
+}
+
+.mainProducts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 19px;
+  max-width: 100%;
+}
+
+.mainProductsItem {
+  width: 30%;
+  background-color: white;
+  margin-bottom: 24px;
+  -webkit-box-shadow: -2px 4px 8px 0px rgba(34, 60, 80, 0.2);
+          box-shadow: -2px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  border-radius: 5px;
+  margin-right: 38px;
+}
+
+.mainProductsItemUpper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mainProductsItemUpper::after {
+  display: block;
+  margin-top: 23px;
+  content: "";
+  border-bottom: 2px solid #E4E7EB;
+  width: 90%;
+}
+
+.mainProductsItemUpperImg {
+  margin-top: 26px;
+}
+
+.mainProductsItemUpperName {
+  font-size: 18px;
+  font-family: 'Robot' ,sans-serif;
+  color: #212B36;
+  font-weight: 500;
+}
+
+.mainProductsItemUpperText {
+  font-size: 14px;
+  font-family: 'Robot' ,sans-serif;
+  color: #66788A;
+  text-align: center;
+  margin: 8px 28px 0 28px;
+}
+
+.mainProductsItemDown {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.mainProductsItemDownBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 13px 0;
+}
+
+.mainProductsItemDownBoxText {
+  font-size: 12px;
+  font-family: 'Robot' ,sans-serif;
+  color: #66788A;
+  margin-left: 10px;
+}
+
+.mainProductsItemDownDownload {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 13px 0;
+  text-decoration: none;
+}
+
+.mainProductsItemDownDownloadText {
+  margin-left: 10px;
+  font-size: 12px;
+  font-family: 'Robot' ,sans-serif;
+  color: #66788A;
+}
+
+.mainProductsDown {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.mainFooter::before {
+  display: block;
+  content: "";
+  border-top: 2px solid #E4E7EB;
+  margin-top: 23px;
+  width: 100%;
+}
+
+.mainFooterAuthor {
+  margin-top: 16px;
+  font-size: 14px;
+  font-family: 'Robot' ,sans-serif;
+  color: #616161;
+}
+
+.mainFooterText {
+  margin-top: 4px;
+  font-size: 14px;
+  font-family: 'Robot' ,sans-serif;
+  color: #616161;
+}
